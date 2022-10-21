@@ -111,14 +111,16 @@ cardBar() {
       padding: const EdgeInsets.only(left: 10, right: 10),
       child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
         Text(
-          "freetogame KEVIN LEONEL EDUARDO MEJIA 25-1192-2018---- GERARDO ERNESTO ALFONSO ZEPEDA 25-1961-2018",
+          "freetogame KEVIN EDUARDO 25-1192-2018 - GERARDO ALFONSO 25-1961-2018",
           style: TextStyle(
               fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),
         ),
-        Icon(FeatherIcons.heart)
+        
+        Icon(FeatherIcons.aperture)
       ]),
     ),
+    
   );
 }
 
-nombre() {}
+
